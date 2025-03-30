@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour Booking</title>
+    <link rel="stylesheet" href="./CSS/indes.css" />
+    <link rel="icon" href="./tour/touricon2.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="menu">
+          <li class="menuicon"><a href=""><i class="fa-solid fa-bars"></i></a></li>
+          <li class="hide"><a href="#home">HOME</a></li>
+          <li class="hide"><a href="#band">BAND</a></li>
+          <li class="hide"><a href="#tour">TOUR</a></li>
+          <li class="hide"><a href="#contact">CONTACT</a></li>
+          <li class="dropdown hide">
+              <a href="#">MORE  <i class="fas fa-caret-down"></i></a>
+              <ul class="dropdown-menu">
+                  <li><a href="#">MORE 1</a></li>
+                  <li><a href="#">MORE 2</a></li>
+                  <li><a href="#">MORE 3</a></li>
+              </ul>
+          </li>
+      </ul>
+      <div class="search-icon">
+          <i class="fas fa-search"></i>
+      </div>
+  </nav>
+
+    <section class="banner" id="banner">
+      <div class="bannerimg">
+        <img src="./tour/losangels.jpg" alt="losangels" />
+      </div>
+      <div class="bannerimgtext">
+        <h4>Los Angeles</h4>
+        <p>We had the best time playing at Venice Beach!</p>
+      </div>
+    </section>
+
+    <section class="band" id="band">
+      <div class="bands">
+        <h1>THE BAND</h1>
+        <h5>We love music</h5>
+        <p>
+          We have created a fictional band website. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </p>
+
+        <div class="bandimgparent">
+          <div class="bangimgchild">
+            <p>Name</p>
+            <img src="./tour/bandmember.jpg" alt="bandmember" />
+          </div>
+
+          <div class="bangimgchild">
+            <p>Name</p>
+            <img src="./tour/bandmember.jpg" alt="bandmember" />
+          </div>
+
+          <div class="bangimgchild">
+            <p>Name</p>
+            <img src="./tour/bandmember.jpg" alt="bandmember" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tour" id="tour">
+      <div class="tourdates">
+        <h1>TOUR DATES</h1>
+        <h5>Remember to book your tickets!</h5>
+
+        <div class="monthparent">
+          <div class="month">
+            <p>September</p>
+            <button class="soldoutbtn">Sold Out</button>
+          </div>
+
+          <div class="month">
+            <p>October</p>
+            <button class="soldoutbtn">Sold Out</button>
+          </div>
+
+          <div class="month">
+            <p>November</p>
+            <p class="three">3</p>
+          </div>
+        </div>
+
+        <div class="tourcardparent">
+          <div class="tourcardchild">
+            <img src="./tour/newyork.jpg" alt="New York" />
+            <h3>New York</h3>
+            <h5>Fri 27 Nov 2016</h5>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <a href="">Buy Tickets</a>
+          </div>
+
+          <div class="tourcardchild">
+            <img src="./tour/paris.jpg" alt="Paris" />
+            <h3>Paris</h3>
+            <h5>Sat 28 Nov 2016</h5>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <a href="">Buy Tickets</a>
+          </div>
+
+          <div class="tourcardchild">
+            <img src="./tour/sanfran.jpg" alt="San Francisco" />
+            <h3>San Francisco</h3>
+            <h5>Sun 29 Nov 2016</h5>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <a href="">Buy Tickets</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contacts">
+        <h1>CONTACT</h1>
+        <h5>Fan? Drop a note!</h5>
+
+        <div class="contactparent">
+          <div class="contactchild">
+            <p><i class="fa-solid fa-location-dot"></i> Chicago, US</p>
+            <p><i class="fa-solid fa-phone"></i> Phone: +00 151515</p>
+            <p><i class="fa-solid fa-envelope"></i> Email: mail@mail.com</p>
+          </div>
+
+          <div class="contactchild">
+            <div class="child">
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Email" />
+            </div>
+            <div class="child">
+              <input class="Message" type="text" placeholder="Message" />
+              <button class="sendbtn">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="map" id="map">
+      <img src="./tour/map.jpg" alt="Map" />
+    </section>
+
+    <section class="footer" id="footer">
+      <div class="footericons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-snapchat"></i></a>
+        <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <p>Created by <span>Prasanna Kumar</span></p>
+    </section>
+  </body>
+</html>
